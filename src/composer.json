@@ -16,7 +16,8 @@
     "wpackagist-theme/highstarter":"2.2.2"
   },
   "require-dev": {
-    "scssphp/scssphp": "1.11"
+    "scssphp/scssphp": "1.11",
+    "phpunit/phpunit": "^11"
   },
   "extra": {
     "wordpress-install-dir": "wp",
