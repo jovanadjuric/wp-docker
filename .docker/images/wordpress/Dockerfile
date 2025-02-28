@@ -22,7 +22,7 @@ RUN chmod +x /bin/wp-cli.phar /bin/wp
 #RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN apt-get update
-RUN apt-get install subversion
+RUN apt-get install subversion -y
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
